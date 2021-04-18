@@ -33,10 +33,11 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-5eec718d",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "4/18/2021, 9:41:12 PM"
     },
     {
-      "title": "一级标题",
+      "title": "关于我的内容",
       "frontmatter": {
         "sidebar": "auto",
         "sidebarDepth": 1
@@ -61,7 +62,20 @@ export const siteData = {
           "title": "四级标题",
           "slug": "四级标题"
         }
-      ]
+      ],
+      "lastUpdated": "4/18/2021, 9:41:12 PM"
+    },
+    {
+      "title": "我的项目",
+      "frontmatter": {
+        "sidebar": "auto",
+        "sidebarDepth": 1
+      },
+      "regularPath": "/myproject.html",
+      "relativePath": "myproject.md",
+      "key": "v-d74b8de4",
+      "path": "/myproject.html",
+      "lastUpdated": "4/18/2021, 9:41:12 PM"
     },
     {
       "title": "欢迎来到分类",
@@ -79,18 +93,8 @@ export const siteData = {
           "title": "标题二",
           "slug": "标题二"
         }
-      ]
-    },
-    {
-      "title": "我的项目",
-      "frontmatter": {
-        "sidebar": "auto",
-        "sidebarDepth": 1
-      },
-      "regularPath": "/myproject.html",
-      "relativePath": "myproject.md",
-      "key": "v-d74b8de4",
-      "path": "/myproject.html"
+      ],
+      "lastUpdated": "4/18/2021, 9:41:12 PM"
     },
     {
       "frontmatter": {
@@ -160,6 +164,12 @@ export const siteData = {
         "text": "AboutMe",
         "link": "/aboutme/"
       }
+    ],
+    "plugins": [
+      [
+        "@vuepress/last-updated",
+        {}
+      ]
     ]
   }
 }

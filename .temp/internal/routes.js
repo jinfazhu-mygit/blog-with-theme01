@@ -29,19 +29,19 @@ export const routes = [
     },
   },
   {
-    name: "v-3a1ffbc4",
-    path: "/category.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3a1ffbc4").then(next)
-    },
-  },
-  {
     name: "v-d74b8de4",
     path: "/myproject.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-d74b8de4").then(next)
+    },
+  },
+  {
+    name: "v-3a1ffbc4",
+    path: "/category.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3a1ffbc4").then(next)
     },
   },
   {

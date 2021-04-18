@@ -1,3 +1,6 @@
+const moment = require('moment');
+moment.locale("zh-cn");
+
 module.exports={
   theme: 'reco',
   themeConfig: {
@@ -22,5 +25,16 @@ module.exports={
     ],
     //侧边栏
 
+    //插件
+    plugins: [
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp) => {
+            return moment(timestamp).format('LLLL')
+          }
+        }
+      ]
+    ]
   }
 }
