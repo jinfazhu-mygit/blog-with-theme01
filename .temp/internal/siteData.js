@@ -141,20 +141,6 @@ export const siteData = {
         "link": "/myproject/"
       },
       {
-        "text": "语言",
-        "ariaLabel": "Language Menu",
-        "items": [
-          {
-            "text": "简体中文",
-            "link": "/language/chinese/"
-          },
-          {
-            "text": "English",
-            "link": "/language/japanese/"
-          }
-        ]
-      },
-      {
         "text": "友情链接",
         "ariaLabel": "Other Links",
         "items": [
@@ -165,6 +151,10 @@ export const siteData = {
           {
             "text": "gitee",
             "link": "https://gitee.com/"
+          },
+          {
+            "text": "aliyun",
+            "link": "https://aliyun.com/"
           }
         ]
       },
