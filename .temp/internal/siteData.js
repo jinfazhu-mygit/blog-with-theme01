@@ -63,19 +63,7 @@ export const siteData = {
           "slug": "四级标题"
         }
       ],
-      "lastUpdated": "4/18/2021, 9:41:12 PM"
-    },
-    {
-      "title": "我的项目",
-      "frontmatter": {
-        "sidebar": "auto",
-        "sidebarDepth": 1
-      },
-      "regularPath": "/myproject.html",
-      "relativePath": "myproject.md",
-      "key": "v-d74b8de4",
-      "path": "/myproject.html",
-      "lastUpdated": "4/18/2021, 9:41:12 PM"
+      "lastUpdated": "4/18/2021, 9:57:51 PM"
     },
     {
       "title": "欢迎来到分类",
@@ -94,6 +82,18 @@ export const siteData = {
           "slug": "标题二"
         }
       ],
+      "lastUpdated": "4/18/2021, 9:41:12 PM"
+    },
+    {
+      "title": "我的项目",
+      "frontmatter": {
+        "sidebar": "auto",
+        "sidebarDepth": 1
+      },
+      "regularPath": "/myproject.html",
+      "relativePath": "myproject.md",
+      "key": "v-d74b8de4",
+      "path": "/myproject.html",
       "lastUpdated": "4/18/2021, 9:41:12 PM"
     },
     {
@@ -129,39 +129,47 @@ export const siteData = {
     "logo": "/assets/img/logo.png",
     "nav": [
       {
-        "text": "Home",
+        "text": "首页",
         "link": "/"
       },
       {
-        "text": "Category",
+        "text": "分类",
         "link": "/category/"
       },
       {
-        "text": "MyProject",
+        "text": "我的项目",
         "link": "/myproject/"
       },
       {
-        "text": "Languages",
+        "text": "语言",
         "ariaLabel": "Language Menu",
         "items": [
           {
-            "text": "Chinese",
+            "text": "简体中文",
             "link": "/language/chinese/"
           },
           {
-            "text": "Japanese",
+            "text": "English",
             "link": "/language/japanese/"
           }
         ]
       },
       {
-        "text": "External",
-        "link": "https://google.com",
-        "target": "_self",
-        "rel": ""
+        "text": "友情链接",
+        "ariaLabel": "Other Links",
+        "items": [
+          {
+            "text": "MyGithub",
+            "link": "https://github.com/jinfazhu-mygit"
+          },
+          {
+            "text": "gitee",
+            "link": "https://gitee.com/"
+          }
+        ]
       },
       {
-        "text": "AboutMe",
+        "text": "关于我",
         "link": "/aboutme/"
       }
     ],
