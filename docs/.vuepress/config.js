@@ -12,6 +12,7 @@ module.exports={
       { text: '首页', link: '/' },
       { text: '分类', link: '/category/' },
       { text: '我的项目', link: '/myproject/' },
+      { text: '我的项目', link: '/myproject/' },
       {
         text: '友情链接',
         ariaLabel: 'Other Links',
